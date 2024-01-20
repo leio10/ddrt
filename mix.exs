@@ -28,7 +28,7 @@ defmodule DynamicRtree.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:uuid, "~> 1.1"},
+      {:elixir_uuid, "~> 1.2"},
       {:jason, "~> 1.0"},
       {:benchee, "~> 1.0", only: :dev},
       {:earmark, "~> 1.2", only: :dev},
